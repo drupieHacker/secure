@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="fonts/style.css">
+    
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="main.js"></script>
 </head>
@@ -27,16 +28,16 @@
 					<ul class="children">
 						<li><a href="quienessomos.html">¿Quiénes somos?<span class="icon-dot"></span></a></li>
 						<li><a href="vision.html">Visión <span class="icon-dot"></span></a></li>
-						<li><a href="#">SubElemento #3 <span class="icon-dot"></span></a></li>
+						<li><a href="cobertura.html">Cobertura<span class="icon-dot"></span></a></li>
 					</ul>
 				</li>
-                <li><a href="#"><span class="icon-suitcase"></span>Contacto</a></li>
+                <li><a href="contacto.html"><span class="icon-suitcase"></span>Contacto</a></li>
                 <li class="submenu">
 					<a href="#">Servicios<span class="icon-arrow-down2"></span><span class="caret icon-arrow-down6"></span></a>
 					<ul class="children">
-						<li><a href="#">SubElemento #1 <span class="icon-dot"></span></a></li>
-						<li><a href="#">SubElemento #2 <span class="icon-dot"></span></a></li>
-						<li><a href="#">SubElemento #3 <span class="icon-dot"></span></a></li>
+                        <li><a href="servicios.html">Servicios <span class="icon-dot"></span></a></li>
+						<li><a href="guardias.html">Guardias y servicios<span class="icon-dot"></span></a></li>
+						<li><a href="equipo.html">Equipo <span class="icon-dot"></span></a></li>
 					</ul>
 				</li>
 			</ul>
@@ -91,7 +92,7 @@
     <img src="clientes.jpg" alt="">
  
 </div>
-<div class="contact">
+<!-- <div class="contact">
     <div class="contact_box_1">
         <h1>Informes y ventas</h1>
        <span>C. Querétaro 229, Roma Nte., Cuauhtémoc, 06700, CDMX</span>
@@ -102,7 +103,52 @@
     <div class="contact_box_2">
 <img src="img2.jpg" alt="">
     </div>
+  <div class="form" id="form">
+<input type="text">
+  </div>
+</div> -->
+<!-- formulario -->
+<div class="container">
+    <div id="todo">
+        <div class="caja1" id="b">
+<p>Informes ventas</p>
+<p>C. Querétaro 229, Roma Nte., Cuauhtémoc, 06700, CDMX</p>
+<p>C. Querétaro 229, Roma Nte., Cuauhtémoc, 06700, CDMX</p>
+<p>C. Querétaro 229, Roma Nte., Cuauhtémoc, 06700, CDMX</p>
+
+            <button id="btn" class="contactanos">Contátanos</button>
+        </div>
+        <div class="caja2" id="box">
+            <h1>Comunicate con nosotros</h1>
+            <form action="form.php" method="post">
+                <input type="text" placeholder="nombre" name="nombre">
+                <input type="text" placeholder="correo electrónico" name="correo">
+                <textarea name="pregunta" id="" cols="30" rows="5" > 
+
+                </textarea>
+               
+                <input type="submit">
+              
+
+              
+               </form>
+               <div class="eventos">
+                <button id="btn2" class="cancel">Cancelar</button>
+               </div>
+        </div>
 </div>
+<div class="b1">
+   <img src="tel.webp" alt="" srcset="" height="400px">
+</div>
+</div>
+<!-- fin de formulario -->
+<div class="contenedor_form">
+<div class="father">
+    <div class="descrip"></div>
+    <div class="form"></div>
+</div>
+</div>
+
 <footer>
     <div class="barnav1">
         <div class="copy">
@@ -127,5 +173,24 @@
         <a href="">Equipo</a>
     </div>
 </footer>
+<script>
+    var btn=document.getElementById("btn");
+    var btn2=document.getElementById("btn2");
+    var cont=document.getElementById("box");
+    var con=document.getElementById("b");
+    function ver(){
+       
+cont.classList.add("visible");
+con.classList.add("invisible")
+    }
+    function off(){
+       
+       cont.classList.remove("visible");
+       con.classList.add("visible");
+       con.classList.remove("invisible");
+           }
+    btn.addEventListener("click",ver);
+    btn2.addEventListener("click",off);
+</script>
 </body>
 </html>

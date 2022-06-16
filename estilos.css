@@ -225,7 +225,6 @@ transition: all 0.5s ;
    transition: all 0.5s ;
     background: transparent;
     border: 1px solid #966e36;
-    
     }
 footer{
     width: 100%;
@@ -414,3 +413,315 @@ width: 100%;
 		float: right;
 	}
 }
+
+
+.button_whatsApp{
+    width: 100%;
+    height: 300px;
+margin-top: 200px;
+display: flex;
+justify-content: center;
+}
+
+.button_whatsApp .btn{
+    width: 200px;
+    height: 50px;
+    background-color: #25D366;
+    padding: 10px;
+    color: #fafafa;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.button_whatsApp .btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.services_description{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.services_description h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.services_description p{
+    width: 40%;
+    margin: 0 auto;
+}
+.row_services{
+    width: 90%;
+   
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.row_services section{
+    width: 20%;
+    margin-bottom: 100px;
+}
+.row_services section .item{
+    width: 100%;
+    
+}.row_services section .item img{
+    width: 100%;
+    border-radius: 50%;display: block;
+}
+.row_services section .text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.row_services_column2{
+    background-color: #ffd32a;
+    width: 90%;
+   height: 330px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+   padding: 30px;
+}
+
+.row_services_column2 section{
+    width: 20%;
+  
+}
+.row_services_column2 section .item{
+    width: 100%;
+    
+}.row_services_column2 section .item img{
+    width: 100%;
+    border-radius: 50%;display: block;
+}
+.row_services_column2 section .text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* col 3 */
+.row_services_col3{
+    width: 70%;
+   
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+.row_services_col3 section{
+    width: 20%;
+    margin-bottom: 100px;
+}
+.row_services_col3 section .item{
+    width: 100%;
+    
+}.row_services_col3 section .item img{
+    width: 100%;
+    border-radius: 50%;display: block;
+}
+.row_services_col3 section .text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+/* col4 */
+.row_services_col4{
+    width: 70%;
+   
+    display: flex;
+
+    margin: auto;
+    margin-top: 10px;
+   
+}
+.row_services_col4 section{
+    width: 20%;
+    margin-bottom: 100px;
+    margin-left: 8%;
+}
+.row_services_col4 section .item{
+    width: 100%;
+    
+}.row_services_col4 section .item img{
+    width: 100%;
+    border-radius: 50%;display: block;
+}
+.row_services_col4 section .text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+/* columna team */
+.row_services_col_team{
+    width: 70%;
+   
+    display: flex;
+
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+.row_services_col_team section{
+    width: 20%;
+    margin-bottom: 100px;
+    margin-left: 8%;
+}
+.row_services_col_team section .item{
+    width: 100%;
+    
+}.row_services_col_team section .item img{
+    width: 100%;
+    border-radius: 50%;display: block;
+}
+.row_services_col_team section .text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* div form */
+#todo {
+	width:48%;
+    height: 400px;
+     
+	
+	display:block;
+    position: absolute;
+display: flex;
+	}
+	
+.caja1 {
+    position: relative;
+	width:100%;
+    height: 400px;
+	
+	display: flex;
+    flex-direction: column;
+	
+	}
+    .caja1 p{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+       
+    }
+    .caja1 button{
+        width: 50%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+.caja2 {
+    position: absolute;
+    width:100%;
+    height: 400px;
+	
+	float:left;
+  display: none;
+
+	}
+    .caja2 h1{
+        text-align: center;
+    }
+    .caja2 form{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .caja2 form .eventos{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .caja2 form .eventos input[type="submit"]{
+        width: 40%;
+      
+        border: none;
+    }
+    .caja2 form .eventos button{
+        width: 40%;
+        height: 35px;
+      
+    }
+    .caja2 form input{
+width: 100%;
+padding: 10px;
+margin-bottom: 5%;
+    }
+    .caja2 form textarea{
+        margin-bottom: 20px;
+    }
+   
+    .b1{
+      width: 50%;
+      position: relative;
+      left: 50%;
+     
+
+    }
+   
+    .visible{
+        display: block;
+    }
+    .invisible{
+        display: none;
+    }
+    .caja2 form textarea{
+        width:100%;
+    }
+    .eventos{
+        width: 80%;
+        margin: 0 auto;
+    }
+   
+
+
+    /* botones */
+    .caja1 .contactanos{
+        display: block;
+        border: none;
+        width: 40%;
+        height: 50px;
+        background: #ffda79;
+        cursor: pointer;
+        transition: all 0.5s ;
+        }
+        .caja1 .contactanos:hover{
+           transition: all 0.5s ;
+            background: transparent;
+            border: 1px solid #966e36;
+            }
+            .caja2 form input[type="submit"]{
+                display: block;
+                border: none;
+                width: 40%;
+                height: 50px;
+                background: #ffda79;
+                cursor: pointer;
+                transition: all 0.5s ;
+            }  .caja2 form input[type="submit"]:hover{
+                transition: all 0.5s ;
+                 background: transparent;
+                 border: 1px solid #966e36;
+                 }
+                 .eventos .cancel{
+                    display: block;
+                    border: none;
+                    width: 40%;
+                    height: 50px;
+                    background: #ffda79;
+                    cursor: pointer;
+                    transition: all 0.5s ;
+                 }
+                 .eventos .cancel:hover{
+                    transition: all 0.5s ;
+                     background: transparent;
+                     border: 1px solid #966e36;
+                     }
