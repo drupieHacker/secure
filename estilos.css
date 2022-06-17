@@ -102,7 +102,7 @@ header nav ul li .caret {
     position:relative;
     top: 0;
     width: 100%;
-    height: 650px;
+    height: 445px;
     background-image: url("bgHeader.jpg");
     background-size: 100% 100%;
 
@@ -111,6 +111,10 @@ header nav ul li .caret {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 80px;
+}
+.encabezado1 h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #B58F00;
 }
 
 .row{
@@ -126,22 +130,29 @@ header nav ul li .caret {
 .row article h2,.row article h3,.row article h4{
     text-align: left;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 32px;
+    color: #B58F00;
+    font-family: 'Montserrat', sans-serif;
 }
 .row article p{
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .row article a{
-    width: 80%;
-    background-color: #f1c40f;
+    width: 100%;
+    background-color: #feca00;
     margin: 0 auto;
     display: block;
     text-align: center;
-    padding: 10px;
-    color: #fafafa;
+ 
+   padding: 20px;
+    color: #000;
     transition: all 0.5s;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
 }
 .row article a:hover{
     transition: all 0.5s;
@@ -156,26 +167,39 @@ aside{
 }
 
 aside .banner1{
-
+width: 50%;
+background-color: #000;
+background-image: url(img/radios.jpg);
+background-size: 100% 100%;
+height: 403px;
 }
 aside .banner2{
-   padding: 10px;
-    background-color: #fed330;
+    width: 50%;
+    height: 403px;
+ padding: 20px;
+    background-color: #feca00;
 }
 aside .banner2 h2{
-font-size: 30px;
+font-size: 32px;
 margin-bottom: 50px;
+font-family: 'Montserrat', sans-serif;
+color: #161616;
 }
 aside .banner2 p{
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 800;
 }
 aside .banner2 a{
-    background-color: #4b4b4b;
+  
+    background-color: #0d0d08;
     padding: 20px;
     color: #fafafa;
     text-decoration: none;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 800;
 }
 aside .banner2 a:hover{
     background-color: transparent;
@@ -226,57 +250,6 @@ transition: all 0.5s ;
     background: transparent;
     border: 1px solid #966e36;
     }
-footer{
-    width: 100%;
-    background-color: #222222;
-    padding: 10px;
-
-}
-
-.barnav1{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.barnav1 .copy{
-    width: 20%;
-}
-.barnav1 p{
-    color: #fafafa;
-}
-.barnav1 .social_media{
-    width: 10%;
-}
-.barnav1 .social_media a{
-    color: #fafafa;
-    text-decoration: none;
-    padding: 10px;
-    transition: all 0.5s;
-}
-.barnav1 .social_media a:hover{
-    transition: all 0.5s;
-  background-color: rgba(255,255,255,.5);
-  border-radius: 50%;
-}
-footer .author {
-    color: #fafafa;
-}
-footer .enlaces{
-    width: 90%;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-around;
-    
-}
-footer .enlaces a{
-    color: #fafafa;
-    text-decoration: none;
-   transition: all 0.5s ;
-   padding: 10px;
-}
-footer .enlaces a:hover{
-    background-color: rgba(0,0,0,0.5);
-}
 
 .articles_content {
     margin-top: 200px;
@@ -308,6 +281,18 @@ footer .enlaces a:hover{
     .contact{
         flex-wrap: wrap;
     }
+    .caja2 form{
+        width: 80%;
+        margin: auto;
+        display: block;
+       
+    }.b1{
+        display: none;
+    }
+   
+   
+  
+
     .contact_box_1{
       width: 100%;
       height: 400px;
@@ -325,13 +310,15 @@ footer .enlaces a:hover{
     aside .banner1{
 width: 100%;
     }
+   
     aside .banner2{
         width: 100%;
        padding: 30px;
+       height: auto;
         background-color: #fed330;
     }
     aside .banner2 p{
-        font-size: 25px;
+       
         margin-bottom: 0;
     }
     aside .banner2 a{
@@ -585,7 +572,22 @@ justify-content: center;
 
 
 /* div form */
-#todo {
+.container{
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    
+}
+.container h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #B58F00;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.todo {
 	width:48%;
     height: 400px;
      
@@ -596,7 +598,7 @@ display: flex;
 	}
 	
 .caja1 {
-    position: relative;
+   
 	width:100%;
     height: 400px;
 	
@@ -608,13 +610,10 @@ display: flex;
         width: 100%;
         text-align: center;
         margin-top: 50px;
+        margin-bottom: 10px;
        
     }
-    .caja1 button{
-        width: 50%;
-        padding: 10px;
-        margin: 20px auto;
-    }
+  
 
 .caja2 {
     position: absolute;
@@ -661,11 +660,14 @@ margin-bottom: 5%;
    
     .b1{
       width: 50%;
-      position: relative;
-      left: 50%;
+     
+     
      
 
     }
+
+
+    
    
     .visible{
         display: block;
@@ -684,19 +686,28 @@ margin-bottom: 5%;
 
 
     /* botones */
+  
+ 
     .caja1 .contactanos{
-        display: block;
-        border: none;
-        width: 40%;
-        height: 50px;
-        background: #ffda79;
-        cursor: pointer;
-        transition: all 0.5s ;
+        width: 60%;
+       
+    background-color: #feca00;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+ border: none;
+   padding: 20px;
+    color: #000;
+    transition: all 0.5s;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
         }
         .caja1 .contactanos:hover{
-           transition: all 0.5s ;
-            background: transparent;
-            border: 1px solid #966e36;
+            background-color: transparent;
+        transition: all 0.5s;
+        border: 1px solid #966e36;
+        color: #966e36;
             }
             .caja2 form input[type="submit"]{
                 display: block;
@@ -724,4 +735,40 @@ margin-bottom: 5%;
                     transition: all 0.5s ;
                      background: transparent;
                      border: 1px solid #966e36;
+                     }
+
+                     footer{
+                        width: 100%;
+                        background-color: #0d0d08;
+                        padding: 20px;
+                     }
+                     footer .barnav1{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                     }
+                     footer .barnav1 .Apli{
+                        width: 20%;
+                     }
+                     footer .author{
+                        color: #fafafa;
+                     }
+                     footer .social_media a{
+                        color: #fafafa;
+                        text-decoration: none;
+                        padding: 10px;
+                     }
+                     footer .barnav1 .Apli p{
+                        color: #fafafa;
+                     }
+                     footer .enlaces{
+                        width: 90%;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: space-around;
+                        margin-top: 20px ;
+                     }
+                     footer .enlaces a{
+                        color: #fafafa;
+                        text-decoration: none;
                      }

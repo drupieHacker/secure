@@ -1,0 +1,208 @@
+@media screen and (max-width: 800px) {
+    .container{
+        width: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        
+    }
+    aside .banner2 p{
+        font-size: 1px;
+        margin-bottom: 0;
+    }
+    .container h1{
+        width: 100%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #B58F00;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .todo {
+        width:50%;
+        height: 400px;
+         
+        
+        display:block;
+        position: absolute;
+    display: flex;
+        }
+        
+    .caja1 {
+       
+        width:100%;
+        height: 400px;
+        
+        display: flex;
+        flex-direction: column;
+        
+        }
+        .caja1 p{
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 10px;
+           
+        }
+      
+    
+    .caja2 {
+        position: absolute;
+        width:100%;
+        height: 400px;
+        
+        float:left;
+      display: none;
+    
+        }
+        .caja2 h1{
+            text-align: center;
+        }
+        .caja2 form{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .caja2 form .eventos{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .caja2 form .eventos input[type="submit"]{
+            width: 40%;
+          
+            border: none;
+        }
+        .caja2 form .eventos button{
+            width: 40%;
+            height: 35px;
+          
+        }
+        .caja2 form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5%;
+        }
+        .caja2 form textarea{
+            margin-bottom: 20px;
+        }
+       
+        .b1{
+         display: none;
+         
+         
+         
+    
+        }
+/* fin de form */    
+   
+  
+
+    .contact_box_1{
+      width: 100%;
+      height: 400px;
+    }
+    .contact_box_2{
+        width: 100%;
+      }
+    header{
+        display: block;
+        position: relative;
+    }
+    aside{
+        flex-wrap: wrap;
+    }
+    aside .banner1{
+width: 100%;
+    }
+   
+    aside .banner2{
+        width: 100%;
+       padding: 30px;
+        background-color: #fed330;
+    }
+    aside .banner2 p{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    aside .banner2 a{
+        display: block;
+        margin-top: 10px;
+    }
+    .row{
+        width: 90%;
+        margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row article{
+        width: 100%;
+    }
+    .branding{
+        display: none;
+    }
+	body {
+		padding-top:80px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.menu_bar span {
+		
+		font-size: 40px;
+	}
+
+	header nav {
+		width: 100%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+        background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	header nav ul li a {
+		display: block;
+	}
+
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+	}
+}
