@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.copy{
+    width: 50%;
+    height: 400px;
+    
+}
+.copy .capa1{
+    width: 100%;
+    height: 400px;
+  
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+.copy .capa1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.copy .capa1 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.copy .capa1 a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    width: 100%;
+}
+.copy .capa2{
+    width: 100%;
+    height: 400px;
+  display: flex;
+  flex-direction: column;
+   padding: 10px;
+   margin-top: -300px;
+   margin-left: -1000px;
+   transition: all 0.5s;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+form{
+    width: 70%;
+   margin-top: 100px;
+    display: flex; 
+    flex-direction: column;
+    margin: 0 auto;
+   
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+    margin-top: 10px;
+}
+
+.botones{
+    width: 100%;
+    margin-top: -74px;
+    margin-left: 250px;
+}
+
+
+.slide{
+    width: 100%;
+    height: 300px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   margin-top: -300px;
+   margin-left: 0;
+   
+   transition: all 0.5s;
+}
+.off{
+    display: none;
+    margin-left: -1000px;
+}
+
+.copy .capa1 h1{
+width: 100%;
+}
+.copy .capa1 span{
+    width: 100%;
+    }
+/* .copy .capa2{
+   margin-top: -300px;
+    width: 100%;
+    height: 300px;
+  background-color: aquamarine;
+} */
+.form{
+    width: 50%;
+    height: 300px;
+   
+}
+.contact {
+    width: 60%;
+    border: none;
+    background-color: #feca00;
+    cursor: pointer;
+}
+.contact:hover{
+    transition: all 0.5s;
+    background-color: transparent;
+    border: 1px solid #966e36;
+    color: #966e36;
+}
+form input[type="submit"]{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: #feca00;
+    cursor: pointer;
+    padding: 16px;
+   margin-left: 0;
+}
+.botones button {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 16px;
+   margin-left: 100px;
+   border: none;
+   transition: all 0.5s;
+    
+}
+.botones button:hover{
+    transition: all 0.5s;
+    background-color: transparent;
+    border: 1px solid #966e36;
+    color: #966e36;
+}
+/* media */
+@media screen and (max-width: 800px) {
+  
+    .copy{
+        width: 100%;
+        height: 300px;
+      
+    }
+    .form{
+        width: 100%;
+        height: 300px;
+        margin-top: 150px;
+        padding: 0;
+    }
+    .form img{
+        width: 100%;
+        display: block;
+    }
+    .copy .capa2{
+    width: 100%;
+    height: 400px;
+  display: flex;
+  flex-direction: column;
+   padding: 10px;
+   margin-top: -300px;
+   margin-left: -1000px;
+   transition: all 0.5s;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.botones button {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 16px;
+   margin-left: 0;
+   border: none;
+   transition: all 0.5s;
+    
+}
+
+
+
+}

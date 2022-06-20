@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
 	<title>Menu</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="fonts/style.css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="media.css">
+    
 	<script src="main.js"></script>
 </head>
 <body>
@@ -26,17 +32,19 @@
 					<a href="#">Conócenos<span class="icon-arrow-down2"></span><span class="caret icon-arrow-down6"></span></a>
 					<ul class="children">
 						<li><a href="quienessomos.html">¿Quiénes somos?<span class="icon-dot"></span></a></li>
-						<li><a href="vision.html">Visión <span class="icon-dot"></span></a></li>
-						<li><a href="#">SubElemento #3 <span class="icon-dot"></span></a></li>
+                        <li><a href="mision.html">Misión <span class="icon-dot"></span></a></li>
+
+                        <li><a href="vision.html">Visión <span class="icon-dot"></span></a></li>
+						<li><a href="cobertura.html">Cobertura<span class="icon-dot"></span></a></li>
 					</ul>
 				</li>
-                <li><a href="#"><span class="icon-suitcase"></span>Contacto</a></li>
+                <li><a href="contacto.html"><span class="icon-suitcase"></span>Contacto</a></li>
                 <li class="submenu">
 					<a href="#">Servicios<span class="icon-arrow-down2"></span><span class="caret icon-arrow-down6"></span></a>
 					<ul class="children">
-						<li><a href="#">SubElemento #1 <span class="icon-dot"></span></a></li>
-						<li><a href="#">SubElemento #2 <span class="icon-dot"></span></a></li>
-						<li><a href="#">SubElemento #3 <span class="icon-dot"></span></a></li>
+                        <li><a href="servicios.html">Servicios <span class="icon-dot"></span></a></li>
+						<li><a href="guardias.html">Guardias y servicios<span class="icon-dot"></span></a></li>
+						<li><a href="equipo.html">Equipo <span class="icon-dot"></span></a></li>
 					</ul>
 				</li>
 			</ul>
@@ -73,7 +81,7 @@
 </main>
 <aside>
     <div class="banner1">
-        <img src="img2.jpg" alt="">
+      
     </div>
     <div class="banner2">
 <h2>¿Quiénes somos?</h2>
@@ -83,15 +91,11 @@
 </div>
 </aside>
 <div class="clientes">
-  
-    
         <h1>Nuestros clientes</h1>
-
-
-    <img src="clientes.jpg" alt="">
- 
+    <img src="img/clientes.jpg" alt="">
+ <h1 style="margin-bottom:100px; border-bottom:1px solid #ccc;padding:10px;">Comunícate con nosotros</h1>
 </div>
-<div class="contact">
+<!-- <div class="contact">
     <div class="contact_box_1">
         <h1>Informes y ventas</h1>
        <span>C. Querétaro 229, Roma Nte., Cuauhtémoc, 06700, CDMX</span>
@@ -102,10 +106,46 @@
     <div class="contact_box_2">
 <img src="img2.jpg" alt="">
     </div>
+  <div class="form" id="form">
+<input type="text">
+  </div>
+</div> -->
+<!-- formulario -->
+<div class="container">
+    <div class="copy">
+        <section class="capa1" id="layer1">
+            <h1>Informes y ventas</h1>
+            <span>C. Querétaro 229, Roma Nte., Cuauhtémoc, 06700, CDMX</span>
+        <a href="">55 80 89 67 13</a>
+     <a href=""> 55 22 15 13 63</a>
+            <span>secureprivseg@gmail.com</span>
+            <button id="btn1" class="contact">Comunicate con nosotros</button>
+        </section>
+        <section class="capa2" id="capa1">
+           
+                    <form action="">
+                        <h2 style="text-align: center; ">Comunícate con nosotros.
+                        </h2>
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Correo electrónico">
+                        <input type="text" placeholder="Mensaje">
+                        <input type="submit">
+                    </form>
+                 <div class="botones">
+                    <button id="btn2">Cancelar</button>
+                 </div>
+        </section>
+    </div>
+    <div class="form">
+        <img src="img/radios.jpg" alt="">
+    </div>
 </div>
+<!-- fin de formulario -->
+
+
 <footer>
     <div class="barnav1">
-        <div class="copy">
+        <div class="Apli">
             <p>Copyright © 2022 Servicios Corporativos Unidos en Representación de Seguridad Privada SCU - Todos los derechos reservados.</p>
         </div>
         <div class="social_media">
@@ -127,5 +167,45 @@
         <a href="">Equipo</a>
     </div>
 </footer>
+<style>
+ 
+</style>
+<!-- <script>
+    var btn=document.getElementById("btn");
+    var btn2=document.getElementById("btn2");
+    var cont=document.getElementById("box");
+    var con=document.getElementById("b");
+    function ver(){
+       
+cont.classList.add("visible");
+con.classList.add("invisible")
+    }
+    function off(){
+       
+       cont.classList.remove("visible");
+       con.classList.add("visible");
+       con.classList.remove("invisible");
+           }
+    btn.addEventListener("click",ver);
+    btn2.addEventListener("click",off);
+</script> -->
+<script>
+    var btn1=document.getElementById("btn1");
+    var btn2=document.getElementById("btn2");
+    var capa1=document.getElementById("capa1");
+    var layer1=document.getElementById("layer1");
+    function animate(){
+        capa1.classList.add("slide");
+        capa1.classList.remove("capa2");
+        layer1.classList.add("off");
+    }
+    function reset(){
+        layer1.classList.remove("off");
+        capa1.classList.add("capa2");
+        capa1.classList.remove("slide");
+    }
+    btn1.addEventListener("click",animate);
+    btn2.addEventListener("click",reset);
+</script>
 </body>
 </html>
